@@ -10,9 +10,21 @@
         font-size: 30px;
         background-color: rgb(43, 173, 26);
 }
-.parent_1 {
-        font-size: 30px;
-        background-color: rgb(255, 0, 0);
-        color: rgb(255, 255, 255);
+/* parent */
+.parent {
+        background-color: RED;
+        color: white;
+        font-size: 25px;
+}
 
+/* children */
+.parent h1,
+.parent p {
+        color: inherit;
+        font-size: inherit;
+}
+
+/* initial */
+.parent p{
+        font-size: initial;
 }
